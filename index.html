@@ -1,42 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
-<title>CaspD3V's Repo</title>
-<link rel="stylesheet" href="css/pack.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Gelonade Repo</title>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="dep/css/pack.css">
+<link rel="stylesheet" href="http://sass.spacecandy.ml/spacecandy.css">
 <style>
-body, html{
-	margin:0px;
-	font-family:helvetica;
-	overflow-x:hidden;
-	height:100%;
-	background-color:#101010
-}
+	body{
+		background-color:#101010;
+		color: rgb(100, 150, 200);
+	}
+	.container {
+		padding-left: 2.5%;
+		padding-right: 2.5%;
+	}
 
-.button{
-	display:inline-block;
-	width:80px;
-	padding:10px;
-	border-radius:5px;
-	background-color:#e74f4f;
-	margin:10px;
-	color:white;
-	text-decoration:none;
-	font-weight:500;
-}
+	/* products */
+	.product {
+		text-align: center;
+		border: 1px solid #3f2afa;
+		background-color: rgb(100, 150, 200);
+		color: black;
+		border-radius:5px;
+		margin-top: 2.5%;
+	}
+	.hc {
+
+	}
+	.hcj {
+
+	}
 </style>
 
 </head>
 <body>
-
-<center>
-	<img style="width:100px;margin:10px;border-radius:20px;;margin-top:40px;" src="https://app.eonhubapp.com/images/icons/blank.png">
-	<h1 style="margin:0px;font-size:25px;color:#fff;">My Repo</h1>
-	<p style="margin:10px;font-size:15px;color:#fff;">My Tweaks & More..</p>
-	<a class="button" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.website.com">Add Repo</a>
-</center>
-
-
+	<div class="heading">
+		<div class="row">
+			<div class="space-col-12"><h1 class="center">Gelonade Repo</h1></div>
+			<center>
+				<a class="button" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://iishnoii.github.io/gelonade/">Add Repo</a>
+			</center>
+		</div>
+	</div>
+	<div class="container">
+		<div class="products">
+			<div class="row">
+				<div class="space-col-12">
+					<div class="product hc">
+						<div class="product-title"><h1>Static Widget</h1></div>
+						<div class="product-price"><span>$0.50</span></div>
+						<div class="product-details"><p>HTML and CSS ONLY widget request</p></div>
+						<div class="contact">
+							<a href="#" class="contactButton">Contact via Instagram</a>
+						</div>
+					</div>
+				</div>
+				<div class="space-col-12">
+					<div class="product hcj">
+						<div class="product-title"><h1>Dynamic Widget</h1></div>
+						<div class="product-price"><span>$1.00</span></div>
+						<div class="product-details"><p>Animated/Reactive widget request</p></div>
+						<div class="contact">
+							<a href="#" class="contactButton">Contact via Instagram</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>

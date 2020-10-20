@@ -6,7 +6,7 @@ Description: Simple Gelonade Logo Widget for Xen HTML
 Maintainer: IIShNoII <iishnoii@icloud.com>
 Author: IIShNoII <iishnoii@icloud.com>
 Section: Widgets
-Filename: debians/GelonadeWidget.deb
+Filename: ./debians/com.iishnoii.gelonadewidget.deb
 Size:1400
 MD5sum:1BED77BFA9957DAB4E0A9EFA92759D29
 SHA1:9A875CBE32E2D6A88FE48DDF3424AFF6E6331C60
